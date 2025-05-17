@@ -53,8 +53,7 @@ You will get:
 
 ```
 /audios/
-   ├── interview.txt
-   └── lecture.txt
+   └── transcriptions.csv
 ```
 
 Each `.txt` file contains the transcription of the corresponding audio file.
@@ -64,11 +63,3 @@ Each `.txt` file contains the transcription of the corresponding audio file.
 - The notebook uses Google's online speech recognition service, which requires an internet connection and may be rate-limited.
 - Accuracy may vary depending on audio quality, background noise, and speech clarity.
 - For long or offline transcription, consider switching to models like OpenAI’s Whisper or Vosk.
-
-## 📄 License
-
-This project is released under the MIT License.
-
-## 🙋‍♂️ Contributions
-
-Feel free to fork, suggest improvements, or open a pull request!
